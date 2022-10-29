@@ -44,14 +44,41 @@ p.cranberry {
     color: darkred;
 }
 
-p.guarantee {
+#elixirs {
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+    width: 200px;
+    padding: 0px 20px 20px 20px;
+    margin-left: 20px;
+    text-align: center;
+    background-image: url("images/cocktail.gif");
+    background-repeat:repeat-x;
+    background-position: top left;
+    line-height: 1em;
+    float: right;
+}
+
+#elixirs h2 {
+    color: black;
+}
+
+#elixirs h3 {
+    color: #d12c47
+}
+
+div {
+    display: block;
+}
+
+#guarantee {
     line-height: 1.9em;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #444444;
-    border-color: black;
+    border-color: white;
     border-width: 1px;
-    border-style: solid;
+    border-style: dashed;
     background-color: #a7cece;
     padding: 25px;
     padding-left: 80px;
@@ -62,7 +89,7 @@ p.guarantee {
     background-position: top left;
 }
 
-.rodape {
+#rodape {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
