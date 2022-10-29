@@ -4,17 +4,15 @@ body {
     line-height: 1.6em;
 }
 
-h1, h2 {
-    color: #007e7e;
-}
-
 h1 {
     font-size: 230%;
+    color:#025050
 }
 
 h2 {
     font-size: 180%;
-}
+    color:#007e7e
+} 
 
 h3 {
     font-size: 130%;
@@ -42,6 +40,11 @@ p.blueberry {
 
 p.cranberry {
     color: darkred;
+}
+
+#logo {
+    text-align: center;
+
 }
 
 #elixirs {
