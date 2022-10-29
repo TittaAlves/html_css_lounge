@@ -1,17 +1,27 @@
 body {
-    font-family: sans-serif;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6em;
 }
 
 h1, h2 {
-    color: gray;
+    color: #007e7e;
 }
 
 h1 {
-    border-bottom: 1px solid black;
+    font-size: 230%;
+}
+
+h2 {
+    font-size: 180%;
+}
+
+h3 {
+    font-size: 130%;
 }
 
 p {
-    color: maroon;
+    color: black;
 }
 
 em {
@@ -32,4 +42,31 @@ p.blueberry {
 
 p.cranberry {
     color: darkred;
+}
+
+p.guarantee {
+    line-height: 1.9em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444444;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #a7cece;
+    padding: 25px;
+    padding-left: 80px;
+    margin: 30px;
+    margin-right: 250px;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.rodape {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
 }
